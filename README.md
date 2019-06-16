@@ -1,6 +1,6 @@
 # Robotic-Arm
 
-## The goal of the project was to study the behaviour of a 4-dof robotic arm/
+## The goal of the project was to study the behaviour of a 4-dof robotic arm
 
 To simulate the robotic arm , we used Matlab with Corke's robotic toolbox. 
 
@@ -27,5 +27,5 @@ Link| θi | di | ai | αi
 
 By expressing the parameters of the robot as a function of the Cartesian coordinates we get the following equations:
 
-![inv-kin](https://github.com/SergiosKar/Robotic-Arm/blob/master/images/inverse_kin.PNG)
+![inv-kin](https://github.com/SergiosKar/Robotic-Arm/blob/master/images/inverse-kin.PNG)
 
