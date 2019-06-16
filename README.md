@@ -35,7 +35,7 @@ to form the path and then direct the arm into them with a specified order.
 
 ![inv-kin](https://github.com/SergiosKar/Robotic-Arm/blob/master/images/circle_path.PNG)
 
-Of course before we actualy move the robot, we have to solve the robots Dynamics.
+Of course before we actualy move the robot, we have to solve the robot's Dynamics.
 
 ### Dynamics
 
@@ -43,6 +43,20 @@ The formation of the Euler-Lagrange equation will enable us to find the actual f
 to force the arm move in a certain way.
 
 ![euler-lagr](https://github.com/SergiosKar/Robotic-Arm/blob/master/images/euler-lagrange.PNG)
+
+
+### Control
+
+Finally to optimize the movement of the robot into the specified path, it is essential to add a control mechanism.
+We choosed ato do that using feedforward-torque control.
+
+
+![control](https://github.com/SergiosKar/Robotic-Arm/blob/master/images/control.PNG)
+
+After applying the control, we tried to move the robot in a circular path and  measured the difference between the desired path and the actual movement. 
+
+![cpc](https://github.com/SergiosKar/Robotic-Arm/blob/master/images/circle_path_control%20.PNG)
+
 
 
 
