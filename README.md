@@ -29,3 +29,20 @@ By expressing the parameters of the robot as a function of the Cartesian coordin
 
 ![inv-kin](https://github.com/SergiosKar/Robotic-Arm/blob/master/images/inverse-kin.PNG)
 
+### Path Planning
+To make the end-effector move in a circular path during a specific amount of time , we have to define at least 9 points
+to form the path and then direct the arm into them with a specified order.
+
+![inv-kin](https://github.com/SergiosKar/Robotic-Arm/blob/master/images/circle_path.PNG)
+
+Of course before we actualy move the robot, we have to solve the robots Dynamics.
+
+### Dynamics
+
+The formation of the Euler-Lagrange equation will enable us to find the actual forces we need to apply in the motors,
+to force the arm move in a certain way.
+
+![euler-lagr](https://github.com/SergiosKar/Robotic-Arm/blob/master/images/euler-lagrange.PNG)
+
+
+
